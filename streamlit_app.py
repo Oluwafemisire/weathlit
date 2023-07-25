@@ -25,7 +25,7 @@ with st.spinner('Getting weather results...'):
     if city:
         try:
             """
-            The weather forecast for 5 days *that's today and 4 days from now* is shown below."""
+            The weather forecast for 5 days is shown below. *that's today and 4 days from now*"""
             data = accessor.get(city)
             temp = data['temp']
             pressure = data['pressure']
