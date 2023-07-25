@@ -11,7 +11,7 @@ class WeatherMapConnection(ExperimentalBaseConnection):
     def accessor(self):
         return self
         
-    def get(self, city):
+    def query(self, city):
         @st.cache_data    
         def _get(city):
             url = f'https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={self.api_key}&units=metric'
