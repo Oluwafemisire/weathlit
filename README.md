@@ -4,6 +4,7 @@
 This Streamlit application provides a user-friendly interface to access weather data for a given city using the Open Weather Map API.
 
 You can check out the deployed app here: [Weathlit](https://weathlit.streamlit.app/).
+![image](https://github.com/Oluwafemisire/weathlit/assets/66549203/fbdd3bb3-e0bc-4071-b70f-d852d9b8a6e4)
 
 ## About Project
 
